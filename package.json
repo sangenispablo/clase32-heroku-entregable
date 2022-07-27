@@ -1,0 +1,29 @@
+{
+  "name": "clase32-heroku-entregable",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js --mode FORK",
+    "dev": "nodemon src/index.js --port 3000 --mode FORK"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "log4js": "^6.6.0",
+    "mongoose": "^6.4.4",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "yargs": "^17.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
